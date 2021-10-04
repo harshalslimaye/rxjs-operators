@@ -1,0 +1,11 @@
+<!-- Next Steps -->
+<h2>Next Steps</h2>
+<p>What do you want to do next with your app?</p>
+
+<input type="hidden" #selection>
+
+<div class="card-container">
+  <button *ngFor="let op of operators" class="card card-small" [routerLink]="op" tabindex="0">
+    <span>{{ op }}</span>
+  </button>
+</div>
