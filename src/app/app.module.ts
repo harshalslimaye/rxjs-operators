@@ -14,6 +14,11 @@ import { SkipWhileComponent } from './skip-while/skip-while.component';
 import { SkipUntilComponent } from './skip-until/skip-until.component';
 import { SkipLastComponent } from './skip-last/skip-last.component';
 import { BufferComponent } from './buffer/buffer.component';
+import { BufferCountComponent } from './buffer-count/buffer-count.component';
+import { StartWithComponent } from './start-with/start-with.component';
+import { EndWithComponent } from './end-with/end-with.component';
+import { DefaultIfEmptyComponent } from './default-if-empty/default-if-empty.component';
+import { FirstComponent } from './first/first.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { BufferComponent } from './buffer/buffer.component';
     SkipWhileComponent,
     SkipUntilComponent,
     SkipLastComponent,
-    BufferComponent
+    BufferComponent,
+    BufferCountComponent,
+    StartWithComponent,
+    EndWithComponent,
+    DefaultIfEmptyComponent,
+    FirstComponent
   ],
   imports: [
     BrowserModule,

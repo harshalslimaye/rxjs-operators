@@ -21,7 +21,12 @@ export class HomeComponent implements OnInit {
       'skipWhile',
       'skipUntil',
       'skipLast',
-      'buffer'
+      'buffer',
+      'bufferCount',
+      'startWith',
+      'endWith',
+      'defaultIfEmpty',
+      'home'
     ];
   }
 
