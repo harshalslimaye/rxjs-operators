@@ -19,6 +19,17 @@ import { StartWithComponent } from './start-with/start-with.component';
 import { EndWithComponent } from './end-with/end-with.component';
 import { DefaultIfEmptyComponent } from './default-if-empty/default-if-empty.component';
 import { FirstComponent } from './first/first.component';
+import { LastComponent } from './last/last.component';
+import { OfComponent } from './of/of.component';
+import { FromComponent } from './from/from.component';
+import { MapComponent } from './map/map.component';
+import { FilterComponent } from './filter/filter.component';
+import { MapToComponent } from './map-to/map-to.component';
+import { DelayComponent } from './delay/delay.component';
+import { IntervalComponent } from './interval/interval.component';
+import { TimerComponent } from './timer/timer.component';
+import { ThrowErrorComponent } from './throw-error/throw-error.component';
+import { CatchErrorComponent } from './catch-error/catch-error.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +49,18 @@ import { FirstComponent } from './first/first.component';
     StartWithComponent,
     EndWithComponent,
     DefaultIfEmptyComponent,
-    FirstComponent
+    FirstComponent,
+    LastComponent,
+    OfComponent,
+    FromComponent,
+    MapComponent,
+    FilterComponent,
+    MapToComponent,
+    DelayComponent,
+    IntervalComponent,
+    TimerComponent,
+    ThrowErrorComponent,
+    CatchErrorComponent
   ],
   imports: [
     BrowserModule,

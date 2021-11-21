@@ -3,9 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { BufferCountComponent } from './buffer-count/buffer-count.component';
 import { BufferComponent } from './buffer/buffer.component';
 import { DefaultIfEmptyComponent } from './default-if-empty/default-if-empty.component';
+import { DelayComponent } from './delay/delay.component';
 import { EndWithComponent } from './end-with/end-with.component';
+import { FilterComponent } from './filter/filter.component';
 import { FirstComponent } from './first/first.component';
+import { FromComponent } from './from/from.component';
 import { HomeComponent } from './home/home.component';
+import { IntervalComponent } from './interval/interval.component';
+import { LastComponent } from './last/last.component';
+import { MapToComponent } from './map-to/map-to.component';
+import { MapComponent } from './map/map.component';
+import { OfComponent } from './of/of.component';
 import { SkipLastComponent } from './skip-last/skip-last.component';
 import { SkipUntilComponent } from './skip-until/skip-until.component';
 import { SkipWhileComponent } from './skip-while/skip-while.component';
@@ -16,6 +24,8 @@ import { TakeUntilUsecaseComponent } from './take-until-usecase/take-until-useca
 import { TakeUntilComponent } from './take-until/take-until.component';
 import { TakeWhileComponent } from './take-while/take-while.component';
 import { TakeComponent } from './take/take.component';
+import { TimerComponent } from './timer/timer.component';
+import { ThrowErrorComponent } from './throw-error/throw-error.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,6 +44,16 @@ const routes: Routes = [
   { path: 'endWith', component: EndWithComponent },
   { path: 'defaultIfEmpty', component: DefaultIfEmptyComponent },
   { path: 'first', component: FirstComponent },
+  { path: 'last', component: LastComponent },
+  { path: 'of', component: OfComponent },
+  { path: 'from', component: FromComponent },
+  { path: 'filter', component: FilterComponent },
+  { path: 'map', component: MapComponent },
+  { path: 'mapTo', component: MapToComponent },
+  { path: 'delay', component: DelayComponent },
+  { path: 'interval', component: IntervalComponent },
+  { path: 'timer', component: TimerComponent },
+  { path: 'throwError', component: ThrowErrorComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 

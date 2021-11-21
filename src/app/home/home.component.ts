@@ -26,7 +26,17 @@ export class HomeComponent implements OnInit {
       'startWith',
       'endWith',
       'defaultIfEmpty',
-      'home'
+      'first',
+      'last',
+      'of',
+      'from',
+      'filter',
+      'map',
+      'mapTo',
+      'delay',
+      'interval',
+      'timer',
+      'throwError'
     ];
   }
 
