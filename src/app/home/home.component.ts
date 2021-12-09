@@ -36,7 +36,11 @@ export class HomeComponent implements OnInit {
       'delay',
       'interval',
       'timer',
-      'throwError'
+      'throwError',
+      'timeout',
+      'timeoutWith',
+      'timestamp',
+      'timeInterval'
     ];
   }
 

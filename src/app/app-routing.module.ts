@@ -26,6 +26,10 @@ import { TakeWhileComponent } from './take-while/take-while.component';
 import { TakeComponent } from './take/take.component';
 import { TimerComponent } from './timer/timer.component';
 import { ThrowErrorComponent } from './throw-error/throw-error.component';
+import { TimeoutComponent } from './timeout/timeout.component';
+import { TimeoutWithComponent } from './timeout-with/timeout-with.component';
+import { TimestampComponent } from './timestamp/timestamp.component';
+import { TimeIntervalComponent } from './time-interval/time-interval.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -54,6 +58,10 @@ const routes: Routes = [
   { path: 'interval', component: IntervalComponent },
   { path: 'timer', component: TimerComponent },
   { path: 'throwError', component: ThrowErrorComponent },
+  { path: 'timeout', component: TimeoutComponent },
+  { path: 'timeoutWith', component: TimeoutWithComponent },
+  { path: 'timestamp', component: TimestampComponent },
+  { path: 'timeInterval', component: TimeIntervalComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 

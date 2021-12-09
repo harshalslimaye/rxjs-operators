@@ -30,6 +30,10 @@ import { IntervalComponent } from './interval/interval.component';
 import { TimerComponent } from './timer/timer.component';
 import { ThrowErrorComponent } from './throw-error/throw-error.component';
 import { CatchErrorComponent } from './catch-error/catch-error.component';
+import { TimeoutComponent } from './timeout/timeout.component';
+import { TimeoutWithComponent } from './timeout-with/timeout-with.component';
+import { TimestampComponent } from './timestamp/timestamp.component';
+import { TimeIntervalComponent } from './time-interval/time-interval.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +64,11 @@ import { CatchErrorComponent } from './catch-error/catch-error.component';
     IntervalComponent,
     TimerComponent,
     ThrowErrorComponent,
-    CatchErrorComponent
+    CatchErrorComponent,
+    TimeoutComponent,
+    TimeoutWithComponent,
+    TimestampComponent,
+    TimeIntervalComponent
   ],
   imports: [
     BrowserModule,
